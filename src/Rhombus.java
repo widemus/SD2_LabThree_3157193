@@ -33,7 +33,7 @@ public class Rhombus extends Shape {
     // stub
     @Override
     public double perimeter() {
-        return 0.0;
+        return 4 * side;
     }
 
     @Override
