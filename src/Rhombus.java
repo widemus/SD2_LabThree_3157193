@@ -27,7 +27,7 @@ public class Rhombus extends Shape {
     // stub
     @Override
     public double area() {
-        return 0.0;
+        return (diagonal1 * diagonal2) / 2;
     }
 
     // stub
