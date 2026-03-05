@@ -31,7 +31,7 @@ public class Circle extends Shape {
     // stub
     @Override
     public double perimeter() {
-        return 0.0;
+        return 2 * Math.PI * radius;
     }
 
     @Override
