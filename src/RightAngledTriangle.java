@@ -26,7 +26,7 @@ public class RightAngledTriangle extends Shape {
     // stub
     @Override
     public double area() {
-        return 0.0;
+        return (base * height) / 2;
     }
 
     // stub
