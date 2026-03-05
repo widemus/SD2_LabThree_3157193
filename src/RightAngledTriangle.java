@@ -32,7 +32,8 @@ public class RightAngledTriangle extends Shape {
     // stub
     @Override
     public double perimeter() {
-        return 0.0;
+        double hypotenuse = Math.sqrt(base * base + height * height);
+        return base + height + hypotenuse;
     }
 
     @Override

@@ -43,4 +43,12 @@ public class ShapeTest {
         RightAngledTriangle triangle = new RightAngledTriangle("Triangle", 3.0, 4.0);
         assertEquals((3.0 * 4.0) / 2, triangle.area(), EPSILON);
     }
+
+    // test RightAngledTriangle perimeter
+    @Test
+    public void testTrianglePerimeter() {
+        RightAngledTriangle triangle = new RightAngledTriangle("Triangle", 3.0, 4.0);
+        double hypotenuse = Math.sqrt(3.0 * 3.0 + 4.0 * 4.0);
+        assertEquals(3.0 + 4.0 + hypotenuse, triangle.perimeter(), EPSILON);
+    }
 }
