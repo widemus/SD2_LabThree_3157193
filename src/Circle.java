@@ -1,4 +1,5 @@
 // Anton Zahrai 3157193
+// repo: https://github.com/widemus/SD2_LabThree_3157193
 
 public class Circle extends Shape {
 
@@ -24,7 +25,7 @@ public class Circle extends Shape {
     // stub
     @Override
     public double area() {
-        return 0.0;
+        return Math.PI * radius * radius;
     }
 
     // stub

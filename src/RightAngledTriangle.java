@@ -1,4 +1,5 @@
 // Anton Zahrai 3157193
+// repo: https://github.com/widemus/SD2_LabThree_3157193
 
 public class RightAngledTriangle extends Shape {
 
