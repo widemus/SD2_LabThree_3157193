@@ -36,4 +36,11 @@ public class ShapeTest {
         Rhombus rhombus = new Rhombus("Rhombus", 5.0, 6.0, 8.0);
         assertEquals(4 * 5.0, rhombus.perimeter(), EPSILON);
     }
+
+    // test RightAngledTriangle area
+    @Test
+    public void testTriangleArea() {
+        RightAngledTriangle triangle = new RightAngledTriangle("Triangle", 3.0, 4.0);
+        assertEquals((3.0 * 4.0) / 2, triangle.area(), EPSILON);
+    }
 }
