@@ -22,4 +22,11 @@ public class ShapeTest {
         Circle circle = new Circle("Circle", 3.5);
         assertEquals(2 * Math.PI * 3.5, circle.perimeter(), EPSILON);
     }
+
+    // test rhombus area
+    @Test
+    public void testRhombusArea() {
+        Rhombus rhombus = new Rhombus("Rhombus", 5.0, 6.0, 8.0);
+        assertEquals((6.0 * 8.0) / 2, rhombus.area(), EPSILON);
+    }
 }
