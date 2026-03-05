@@ -9,10 +9,17 @@ public class ShapeTest {
     // Epsilon value for floating point comparisons
     private static final double EPSILON = 0.1;
 
-    // test area
+    // test circle area
     @Test
     public void testCircleArea() {
         Circle circle = new Circle("Circle", 3.5);
         assertEquals(Math.PI * 3.5 * 3.5, circle.area(), EPSILON);
+    }
+
+    // test circle perimeter
+    @Test
+    public void testCirclePerimeter() {
+        Circle circle = new Circle("Circle", 3.5);
+        assertEquals(2 * Math.PI * 3.5, circle.perimeter(), EPSILON);
     }
 }
